@@ -1,0 +1,224 @@
+.div_block_2 {
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  flex-flow: row;
+  justify-content: space-between;
+  align-items: stretch;
+  width: 100%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 16px;
+  padding-right: 16px;
+  display: flex;
+}
+
+.div_block_3 {
+  flex-flow: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  padding-top: 72px;
+  display: flex;
+}
+
+.div_block_4 {
+  justify-content: flex-end;
+  width: 100%;
+  padding-top: 48px;
+  padding-bottom: 36px;
+  display: flex;
+  position: relative;
+}
+
+.heading {
+  font-family: Satoshi Variable, sans-serif;
+  font-weight: 700;
+  margin-top: 0;
+  color: #3b3b3b;
+  margin-bottom: 0;
+  font-size: 52px;
+  line-height: 66px;
+  width: 620px;
+}
+
+.item {
+  grid-column-gap: 8px;
+  grid-row-gap: 8px;
+  justify-content: flex-start;
+  align-items: center;
+  display: flex;
+}
+
+.list_icon {
+  flex: none;
+  width: 18px;
+  height: 18px;
+}
+
+.ul_par {
+  grid-column-gap: 12px;
+  grid-row-gap: 12px;
+  flex-flow: column;
+  margin-top: 24px;
+  display: flex;
+}
+
+.form_bg_hc {
+  width: 100%;
+  height: 100%;
+}
+
+.form_bg_hc_bd {
+  z-index: -1;
+  width: 800px;
+  height: 476px;
+  position: absolute;
+  top: auto;
+  bottom: 0%;
+  left: -100px;
+  right: 0%;
+}
+
+.div_block_5 {
+  background-color: #fff;
+  border: 1px solid #cbd5e1;
+  border-radius: 16px;
+  width: 500px;
+  height: 600px;
+  padding: 16px 36px 16px 32px;
+  overflow: auto;
+}
+
+.div_block_6 {
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+
+.image {
+  flex: none;
+  width: 92px;
+  height: 88px;
+}
+
+.text_block {
+  position: relative;
+  width: 200px;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 32px;
+}
+.text_block::before {
+  content: "";
+  position: absolute;
+  background-image: url("https://d14qv6cm1t62pm.cloudfront.net/ccbp-website/intensive/undeline_free_demo.png");
+  height: 7px;
+  width: 56px;
+  top: 28px;
+  left: 82px;
+}
+
+.ul_par span {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 24px;
+}
+.ul_par > .list_text {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #3b3b3b;
+}
+.list_icon {
+  background: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxOCIgaGVpZ2h0PSIxOCIgdmlld0JveD0iMCAwIDE4IDE4IiBmaWxsPSJub25lIj48cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTkgMGE5IDkgMCAxIDAgMCAxOEE5IDkgMCAwIDAgOSAwbTMuODQ0IDYuNzA5YS43NS43NSAwIDAgMC0xLjE4Ny0uOTE4bC0zLjcgNC43OS0xLjY1LTEuODMzYS43NS43NSAwIDEgMC0xLjExNCAxLjAwNGwyLjI1IDIuNWEuNzUuNzUgMCAwIDAgMS4xNS0uMDQzeiIgZmlsbD0iIzE2QTM0QSIvPjwvc3ZnPg==");
+}
+.form_bg_hc {
+  clip-path: circle(58% at 50% 88%);
+  background-color: #14b8a6;
+}
+.form_bg_hc_bd {
+  clip-path: circle(60% at 50% 88%);
+  background-color: #ccfbf1;
+}
+.programs_animate {
+  height: 66px;
+  color: #f97316;
+}
+.fixed_s {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: 5;
+  display: none;
+}
+@media screen and (max-width: 479px) {
+  .ul_par {
+    margin-top: 16px;
+  }
+  .programs_animate {
+    height: 30px;
+  }
+
+  .form_bg_hc {
+    clip-path: circle(78.6% at 85% 86%);
+  }
+  .form_bg_hc_bd {
+    clip-path: circle(80.6% at 85% 86%);
+  }
+
+  .div_block_2 {
+    flex-flow: column;
+    padding-top: 24px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .div_block_3 {
+    width: auto;
+    padding-top: 0;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .heading {
+    font-size: 20px;
+    line-height: 36px;
+    width: auto;
+  }
+  .heading > br {
+    display: none;
+  }
+
+  .form_bg_hc_bd {
+    width: 180px;
+    height: 180px;
+    top: -4%;
+    bottom: auto;
+    left: auto;
+    right: 0%;
+  }
+
+  .div_block_5 {
+    border-bottom: 0px;
+    border-radius: 16px 16px 0 0;
+    padding-left: 16px;
+    padding-right: 16px;
+    height: auto;
+    overflow: none;
+  }
+
+  .image {
+    width: 72px;
+    height: auto;
+  }
+
+  .text_block {
+    font-size: 20px;
+    line-height: 28px;
+  }
+  .text_block::before {
+    top: 24px;
+    left: 62px;
+  }
+}

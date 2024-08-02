@@ -1,0 +1,335 @@
+.wji_ma {
+  background-color: #f3f6fa;
+}
+.wj_c2_3_con_d {
+  grid-column-gap: 8px;
+  grid-row-gap: 8px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  display: flex;
+}
+.wji_c1_ea_pa div {
+  color: #334155;
+  align-items: center;
+  padding-left: 48px;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 28px;
+  display: flex;
+}
+
+.wji_c2_3 .wji_h_fx {
+  color: #475569;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+  display: flex;
+  padding: 0px 24px;
+}
+
+.wji_c2_3_im_co {
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.wji_tb {
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  width: 100%;
+  max-width: 1200px;
+  height: 100%;
+  margin-top: 48px;
+  display: flex;
+  position: relative;
+}
+
+.wj_c2_3_t_np {
+  color: #475569;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+}
+
+.wji_c3_hd_h {
+  color: #475569;
+  text-align: center;
+  background-color: #e2e8f0;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 77px;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 28px;
+  display: flex;
+}
+
+.wji_c2_hd_h {
+  color: #fff;
+  text-align: center;
+  background-color: #7c3aed;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 77px;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 28px;
+  display: flex;
+}
+
+.wji_c1_ea_pa {
+  border: 1px solid #cbd5e1;
+  border-radius: 23px 24px 24px 23px;
+  overflow: hidden;
+}
+
+.wji_c3 {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid #d5dde7;
+  border-radius: 22px;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  display: flex;
+  overflow: hidden;
+}
+
+.wji_c2_3 {
+  z-index: 3;
+  grid-column-gap: 34px;
+  grid-row-gap: 34px;
+  flex-direction: row;
+  justify-content: flex-end;
+  width: 70%;
+  display: flex;
+  position: relative;
+}
+
+.wji_c2 {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 2px solid #7c3aed;
+  border-radius: 24px;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  display: flex;
+  overflow: hidden;
+}
+
+.wji_c1 {
+  z-index: 1;
+  display: block;
+  position: absolute;
+  top: 0%;
+  bottom: 0%;
+  left: 0%;
+  right: 0%;
+}
+
+.wji_h {
+  color: #334155;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 60px;
+  font-family: "Satoshi Variable";
+}
+
+.wji_ch {
+  align-items: flex-start;
+  width: 100%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 96px;
+  padding-bottom: 96px;
+  display: block;
+}
+
+.wji_c1_hd {
+  height: 77px;
+}
+
+.wji_c1_ea_pa .wji_h_fx:nth-child(odd) {
+  background-color: #fff;
+}
+.wji_c1_ea_pa .wji_h_fx:nth-child(even) {
+  background-color: #f1f5f9;
+}
+.awards-section-imgs {
+  height: 32px;
+  width: 100px;
+}
+.close-and-tick-marks-icons1 {
+  height: 48px;
+  width: 48px;
+}
+@media screen and (max-width: 479px) {
+  .close-and-tick-marks-icons1 {
+    height: 32px;
+    width: 32px;
+  }
+  .wj_c2_3_con_d {
+    grid-column-gap: 16px;
+    grid-row-gap: 16px;
+    background-color: #fcfdfe;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 8px;
+    display: flex;
+  }
+  .wji_c1_ea_pa div {
+    padding-left: 12px;
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .wji_c1_ea_pa div p {
+    width: 92px;
+  }
+
+  .wji_c2_3_im_co {
+    flex-direction: column;
+  }
+
+  .wji_tb {
+    z-index: 0;
+    flex-direction: row;
+    grid-template:
+      ". . ."
+      "Area Area Area"
+      / 0.25fr 0.5fr 0.5fr;
+    grid-auto-columns: 1fr;
+    justify-content: flex-end;
+    align-items: flex-start;
+    margin-top: 32px;
+    margin-bottom: 8px;
+    padding-right: 4px;
+    display: flex;
+    position: relative;
+  }
+
+  .wj_c2_3_t_np {
+    color: #475569;
+    text-align: center;
+    background-color: #fcfdfe;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 500;
+    display: flex;
+  }
+
+  .wji_c3_hd_h {
+    color: #475569;
+    text-align: center;
+    background-color: #e2e8f0;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 92px;
+    padding: 16px 13px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    display: flex;
+  }
+
+  .wji_c2_hd_h {
+    color: #fff;
+    text-align: center;
+    background-color: #7c3aed;
+    justify-content: center;
+    align-items: center;
+    height: 92px;
+    padding: 16px 13px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    display: flex;
+    overflow: hidden;
+  }
+
+  .wji_c1_ea_pa {
+    border-width: 0;
+    border-radius: 0;
+    overflow: visible;
+  }
+
+  .wji_c3 {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid #e2e8f0;
+    border-radius: 15px 15px 0 0;
+    flex-direction: column;
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+  }
+
+  .wji_c2_3 {
+    grid-column-gap: 9px;
+    grid-row-gap: 9px;
+    justify-content: flex-end;
+    width: 70%;
+    display: flex;
+  }
+
+  .wji_c2 {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid #8b5cf6;
+    border-radius: 16px 16px 0 0;
+    flex-direction: column;
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+  }
+
+  .wji_c1 {
+    z-index: -1;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    display: flex;
+    position: absolute;
+  }
+
+  .wji_h {
+    font-size: 24px;
+    line-height: 34px;
+    padding: 0px 16px;
+  }
+
+  .wji_ch {
+    padding-top: 48px;
+    padding-bottom: 48px;
+  }
+
+  .wji_c1_hd {
+    height: 92px;
+    padding: 16px 13px;
+  }
+  .wji_c2_3 .wji_h_fx {
+    line-height: 20px;
+    font-size: 12px;
+    padding: 6px;
+  }
+  .wji_h_fx {
+    height: 140px;
+  }
+}
+.wji_h_fx {
+  height: 106px;
+}
