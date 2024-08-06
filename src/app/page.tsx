@@ -20,13 +20,13 @@ export const viewport: Viewport = {
 }
 
 export const metadata: Metadata = {
-  title: 'Intensive 3.0 | A Proven Program to Make You a Software Developer',
-  description: 'Intensive 3.0 offers multiple job tracks such as Java and MERN Full Stack, Data Analytics, and QA/Automation Testing, Start your IT career in a powerful way.',
+  title: 'Intensive | A Proven Program To Get You a Software Developer',
+  description: 'Intensive offers multiple job tracks such as Java and MERN Full Stack, Data Analytics, and QA/Automation Testing, Start your IT career in a powerful way.',
   openGraph:{
     type:"website",
     locale:"en_US",
     url:"domain",
-      images :"https://d14qv6cm1t62pm.cloudfront.net/ccbp-website/intensive/intensive-og.png",
+      images :"https://nxtwave-website-media-files.s3.ap-south-1.amazonaws.com/ccbp-website/intensive/intensive-og.png",
   }
 }
 
