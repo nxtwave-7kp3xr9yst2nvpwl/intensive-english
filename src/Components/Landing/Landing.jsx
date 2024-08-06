@@ -127,6 +127,12 @@ export default function Landing() {
                   strong
                 </div>
               </div>
+              <div className="item">
+                <div className="list_icon" />
+                <div className="list_text">
+                  AI-Powered <span> Mock Interviews</span>
+                </div>
+              </div>
             </div>
           </div>
           <div className="div_block_4" id="book-my-session">
@@ -146,7 +152,7 @@ export default function Landing() {
                 />
               </div>
               <div id="book-a-free-session"></div>
-              <Timer />
+              <Timer imgTxt={"form"} txtColor={"#ea580c"} />
               <Script
                 type="text/javascript"
                 src="https://forms-gamma.earlywave.in/webflow/runtime.a3ec8ffa40e84bb7.js"

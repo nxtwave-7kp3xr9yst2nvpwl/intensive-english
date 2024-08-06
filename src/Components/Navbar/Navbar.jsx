@@ -33,14 +33,7 @@ export default function Navbar() {
             id="why-join-intensive-navbar"
             href="#why-join-intensive"
           >
-            Why Join Intensive?
-          </Link>
-          <Link
-            referrerPolicy="no-referrer-when-downgrade"
-            id="about-intensive-navbar"
-            href="#about-intensive"
-          >
-            About Intensive
+            NxtWave Vs Others
           </Link>
         </nav>
       </header>

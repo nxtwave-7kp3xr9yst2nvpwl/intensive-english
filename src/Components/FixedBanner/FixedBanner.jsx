@@ -6,7 +6,7 @@ export default function FixedBanner() {
   return (
     <section className="section_4">
       <div className="div_block_183198ad">
-        <Timer />
+        <Timer imgTxt={"fixed-banner"} txtColor={"#fbbf24"} />
         <Link
           referrerPolicy="no-referrer-when-downgrade"
           id="book-a-free-live-section-sticky"

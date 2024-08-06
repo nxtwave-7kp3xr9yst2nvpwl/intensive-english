@@ -87,6 +87,10 @@ export default function StepTwo() {
               loading="lazy"
             />
           </div>
+          <div className="st_ban_con">
+            <div className="st_se_av_m"></div>
+            <div>Seats Available</div>
+          </div>
         </div>
         <div className="st_op_c">
           <div
@@ -158,6 +162,10 @@ export default function StepTwo() {
               loading="lazy"
             />
           </div>
+          <div className="st_ban_con">
+            <div className="st_se_av_m"></div>
+            <div>Seats Available</div>
+          </div>
         </div>
         <div className="st_op_c">
           <div
@@ -212,6 +220,10 @@ export default function StepTwo() {
               width={212}
               loading="lazy"
             />
+          </div>
+          <div className="st_ban_conb">
+            <div className="st_se_av_mb"></div>
+            <div>Seats filled. Next batch starts on 30 Dec 2024</div>
           </div>
         </div>
         <div className="st_op_c">
@@ -275,6 +287,10 @@ export default function StepTwo() {
               width={100}
               loading="lazy"
             />
+          </div>
+          <div className="st_ban_conb">
+            <div className="st_se_av_mb"></div>
+            <div>Seats filled. Next batch starts on 30 Dec 2024</div>
           </div>
         </div>
       </div>
