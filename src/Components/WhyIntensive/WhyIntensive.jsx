@@ -59,7 +59,7 @@ export default function WhyIntensive() {
           </div>
           <div className="wji_c2_3">
             <div className="wji_c2">
-              <div className="wji_c2_hd_h">Intensive</div>
+              <div className="wji_c2_hd_h">NxtWave Intensive</div>
               <div className="wji_h_fx">
                 Designed as per companies’ current requirements
               </div>

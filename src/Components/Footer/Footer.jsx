@@ -9,10 +9,11 @@ export default function Footer() {
           referrerPolicy="no-referrer-when-downgrade"
           href="https://www.ccbp.in/intensive"
           className="w_inline_block"
+          style={{ marginBottom: "auto" }}
         >
           <img
-            width={95}
-            height={45}
+            width={117}
+            height={66}
             alt="Nxtwave"
             src="https://d14qv6cm1t62pm.cloudfront.net/ccbp-website/Nxtwave_White_logo.svg"
             loading="lazy"
