@@ -7,7 +7,7 @@ export default function Footer() {
         <Link
           id="nxtwave-logo-footer"
           referrerPolicy="no-referrer-when-downgrade"
-          href="https://www.ccbp.in/intensive"
+          href="https://www.ccbp.in"
           className="w_inline_block"
           style={{ marginBottom: "auto" }}
         >
