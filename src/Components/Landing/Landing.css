@@ -157,7 +157,7 @@
     margin-top: 16px;
   }
   .programs_animate {
-    height: 30px;
+    height: 36px;
   }
 
   .form_bg_hc {
@@ -182,13 +182,13 @@
   }
 
   .heading {
-    font-size: 20px;
-    line-height: 36px;
+    font-size: 24px;
+    line-height: 32px;
     width: auto;
   }
-  .heading > br {
+  /* .heading > br {
     display: none;
-  }
+  } */
 
   .form_bg_hc_bd {
     width: 180px;
