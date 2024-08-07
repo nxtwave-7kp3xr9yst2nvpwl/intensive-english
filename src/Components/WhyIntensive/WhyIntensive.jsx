@@ -3,12 +3,12 @@ import "./WhyIntensive.css";
 export default function WhyIntensive() {
   return (
     <section
-      id="why-join-intensive"
+      id="nxtwave-vs-others"
       data-sectionid="sections"
       className="wji_ma"
     >
       <div className="wji_ch">
-        <div className="wji_h">Why Join Intensive?</div>
+        <div className="wji_h">Why Join NxtWave Intensive?</div>
         <div className="wji_tb">
           <div className="wji_c1">
             <div className="wji_c1_hd" />

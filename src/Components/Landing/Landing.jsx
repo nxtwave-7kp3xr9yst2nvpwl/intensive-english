@@ -123,13 +123,14 @@ export default function Landing() {
               <div className="item">
                 <div className="list_icon" />
                 <div className="list_text">
-                  <span>10+ Real-time projects</span> that make your resume
-                  strong
+                  <span>10+ Real-time projects</span> that make your
+                  <br />
+                  resume strong
                 </div>
               </div>
               <div className="item">
                 <div className="list_icon" />
-                <div className="list_text">
+                <div className="list_text ">
                   AI-Powered <span> Mock Interviews</span>
                 </div>
               </div>

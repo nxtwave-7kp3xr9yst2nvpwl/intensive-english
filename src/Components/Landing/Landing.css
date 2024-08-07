@@ -124,7 +124,7 @@
   font-weight: 600;
   line-height: 24px;
 }
-.ul_par > .list_text {
+.ul_par .list_text {
   font-size: 14px;
   font-weight: 400;
   line-height: 20px;
@@ -220,5 +220,8 @@
   .text_block::before {
     top: 24px;
     left: 62px;
+  }
+  .item:nth-last-child(1) {
+    display: none !important;
   }
 }

@@ -6,20 +6,13 @@ export default function Navbar() {
   return (
     <section>
       <header className="div_block">
-        <Link
-          referrerPolicy="no-referrer-when-downgrade"
-          href="https://www.ccbp.in/intensive"
-          className="link_block"
-          id="intensive-logo-navbar"
-        >
-          <Image
-            src="https://d14qv6cm1t62pm.cloudfront.net/ccbp-website/intensive/nxtwave-intensive.png"
-            alt="INTENSIVE"
-            width={203}
-            height={53}
-            className="logo"
-          />
-        </Link>
+        <Image
+          src="https://d14qv6cm1t62pm.cloudfront.net/ccbp-website/intensive/nxtwave-intensive.png"
+          alt="INTENSIVE"
+          width={203}
+          height={53}
+          className="logo"
+        />
         <nav role="navigation" className="nav_items">
           <Link
             referrerPolicy="no-referrer-when-downgrade"
@@ -30,8 +23,8 @@ export default function Navbar() {
           </Link>
           <Link
             referrerPolicy="no-referrer-when-downgrade"
-            id="why-join-intensive-navbar"
-            href="#why-join-intensive"
+            id="nxtwave-vs-others-navbar"
+            href="#nxtwave-vs-others"
           >
             NxtWave Vs Others
           </Link>

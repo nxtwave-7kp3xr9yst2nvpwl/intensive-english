@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 
 export default function Timer({ imgTxt, txtColor }) {
   const imglink = `https://d14qv6cm1t62pm.cloudfront.net/ccbp-website/intensive/${imgTxt}-stopwatch.svg`;
-  const [seconds, setSeconds] = useState(120);
+  const [seconds, setSeconds] = useState(600);
   const [isTimerRunning, setIsTimerRunning] = useState(true);
 
   useEffect(() => {
